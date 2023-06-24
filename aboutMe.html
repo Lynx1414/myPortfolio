@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+  <title>About me</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      <nav type="toolbar" id="nav">
+        <ul class="first">
+          <li onmouseover="displayOnglet('myInfo')" onmouseout="undisplayOnglet('myInfo')" class="onglet"
+            id="myPersonalInfo"><a href="./index.html"><i class="fa-regular fa-address-card"></i></a>
+            <ul class="ul absolu myInfo">
+              <li class="sous_onglet"><a href="./assets/CV-Dévellopeuse-web-web-mobile-Stage.pdf" target="_blank">CV</a>
+              </li>
+            </ul>
+          </li>
+          <li title="Projets réalisés" onmouseover="displayOnglet('work')" onmouseout="undisplayOnglet('work')"
+            id="work" class="onglet"><a href="./work.html"><i class="fa-solid fa-earth-americas"></i></a>
+          </li>
+          <li title="Github" onmouseover="displayOnglet('github')" onmouseout="undisplayOnglet('github')" class="onglet"
+            id="github"><a href="https://github.com/Lynx1414" target="_blank"><i class="fa-brands fa-github"></i></a>
+          </li>
+          <li title=" profil Linkedin" class="onglet" id="linkedin">
+            <a href="https://www.linkedin.com/in/delphine-calabrin-a40a2a68?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BNs0vRQNtTIKOVvsQVQrSzQ%3D%3D"
+              target="_blank"> <i class="fa-brands fa-linkedin-in"></i></a>
+          </li>
+      </nav>
+    </header>
+
+    <main id="appliMobile">
+      <h1><b>A mon propos</b></h1>
+      <a href="./index.html"><i class="fa-solid fa-chevron-left" style="color: #25511f;"></i></a>
+      <a href="./assets/CV-Dévellopeuse-web-web-mobile-Stage.pdf" target="_blank"><i class="fa-solid fa-chevron-right"
+          style="color: #25511f;"></i></a>
+      <div id="profil">
+        <p>Le travail est souvent perçu comme une nécessité pour assurer nos besoins essentiels et notre subsistance.
+          Cependant, au fil du temps et notamment avec l'impact de la pandémie mondiale, nous réalisons que la survie ne
+          suffit plus à notre épanouissement personnel. Ainsi, le choix d'une carrière ne se limite plus à un simple
+          salaire, mais à une réelle passion et motivation. En 2022, j'ai pris la décision audacieuse de me lancer dans
+          un domaine qui m'animait déjà : <strong>la programmation informatique</strong>.
+        </p><br>
+        <p>Pour me professionnaliser dans ce domaine, j'ai entrepris une reconversion après avoir travaillé pendant 12
+          ans dans l'assistanat administratif et commercial. Animée par une grande volonté d'apprendre, de créer et de
+          contribuer de manière significative, je suis une formation intensive de 11 mois. Cette formation me permet
+          d'acquérir une solide compréhension des<strong> langages de programmation et d'autres technologies
+            web.</strong>
+        </p><br>
+        <p>Consciente que la confiance et l'expérience s'acquièrent avec le temps, je suis prête à investir mon énergie
+          et mon engagement pour développer mes compétences et renforcer mes connaissances pratiques. Afin d'obtenir une
+          expérience significative et concrète dans le domaine, je suis ouverte aux opportunités de stage et
+          d'alternance.
+        </p><br>
+        <p>Mon objectif est de continuer à apprendre et à grandir professionnellement en mettant en pratique mes
+          compétences au sein d'organisations qui partagent mes valeurs en matière d'environnement et de durabilité.
+          J'apprécie le travail d'équipe et suis convaincue que <strong>l'apprentissage mutuel et la
+            collaboration</strong> sont essentiels pour la <strong>croissance personnelle et professionnelle</strong>.
+        </p>
+      </div>
+    </main>
+
+  </div>
+  <script src="script.js" async></script>
+</body>
+
+</html>

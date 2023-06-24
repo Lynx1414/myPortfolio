@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+  <title>Backoffice</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      <nav type="toolbar" id="nav">
+        <ul class="first">
+          <li onmouseover="displayOnglet('myInfo')" onmouseout="undisplayOnglet('myInfo')" class="onglet"
+            id="myPersonalInfo"><a href="./index.html"><i class="fa-regular fa-address-card"></i></a>
+            <ul class="ul absolu myInfo">
+              <li class="sous_onglet"><a href="./aboutMe.html">About me</a></li>
+              <li class="sous_onglet"><a href="./assets/CV-Dévellopeuse-web-web-mobile-Stage.pdf" target="_blank">CV</a>
+              </li>
+            </ul>
+          </li>
+          <li title="Projets réalisés" onmouseover="displayOnglet('work')" onmouseout="undisplayOnglet('work')"
+            id="work" class="onglet"><a href="./work.html"><i class="fa-solid fa-earth-americas"></i></a>
+          </li>
+          <li title="Github" onmouseover="displayOnglet('github')" onmouseout="undisplayOnglet('github')" class="onglet"
+            id="github"><a href="https://github.com/Lynx1414" target="_blank"><i class="fa-brands fa-github"></i></a>
+          </li>
+          <li title=" profil Linkedin" class="onglet" id="linkedin">
+            <a href="https://www.linkedin.com/in/delphine-calabrin-a40a2a68?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BNs0vRQNtTIKOVvsQVQrSzQ%3D%3D"
+              target="_blank"> <i class="fa-brands fa-linkedin-in"></i></a>
+          </li>
+      </nav>
+    </header>
+
+    <main id="backOffice">
+      <h1><b>API - Screenshots du backoffice</b></h1>
+      <details>
+        <p>Captures d'écran du backoffice avec API en cours d'hébergement</p>
+      </details>
+      <a href="./api.html"><i class="fa-solid fa-chevron-left" style="color: #25511f;"></i></a>
+      <div id="gridBackoffice">
+        <img src="./assets/webp/connexion-backoffice3.webp" alt="">
+        <img src="./assets/webp/liste-produits3.webp" alt="">
+        <div class="backoffice_screenShot">
+          <img src="./assets/webp/liste-employes2.webp" alt="">
+          <img src="./assets/webp/liste-orders2.webp" alt="">
+        </div>
+        <img src="./assets/webp/visualisation-imprimable-order.webp" alt="">
+      </div>
+    </main>
+  </div>
+  <script src="script.js" async></script>
+</body>
+
+</html>
