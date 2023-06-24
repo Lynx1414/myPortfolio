@@ -339,7 +339,7 @@ form fieldset #btn {
 }
 
 .wrapper {
-  background-image: url("./assets/webp/asian.jpg");
+  background-image: url("./assets/webp/asian.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -348,6 +348,7 @@ form fieldset #btn {
   width: 100%;
   height: 100vh;
   z-index: 1;
+  overflow: hidden;
 }
 
 @media print {
