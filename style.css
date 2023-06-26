@@ -1,15 +1,15 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
 
-/* @font-face {
+@font-face {
   font-family: "space_grotesklight";
   src: url("../assets/Fonts/spacegrotesk-variablefont_wght-webfont.woff2") format("woff2"), url("../assets/Fonts/spacegrotesk-variablefont_wght-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-} */
+}
 
 body {
-  font-family: 'Poppins', sans-serif !important;
+  font-family:  "Poppins", sans-serif !important;
 }
 
 li {
@@ -230,6 +230,7 @@ header #nav ul.first li.onglet ul.absolu li.sous_onglet {
   padding: 0.5em 0.5em;
   text-align: center;
   font-size: 1em;
+  font-family:  "space_grotesklight", sans-serif !important;
 }
 
 header #nav ul.first li.onglet ul.absolu li.sous_onglet a {
@@ -261,15 +262,15 @@ header #nav ul.first li.onglet ul.absolu li.sous_onglet a:hover {
   margin: 0 auto;
   display: grid;
   grid-template-columns: 2fr 1fr;
-  font: inherit;
 }
 
 .main .container .content {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-size: 2em;
+  font-size: 1.8em;
   border-right: 1px solid rgba(66, 130, 15, 0.66);
+  font-family:  "space_grotesklight", sans-serif !important;
 }
 
 .main .container #myPhoto {
@@ -388,6 +389,7 @@ details {
   text-align: center;
   margin-bottom: 1em;
   font-size: 25px;
+  font-family:  "space_grotesklight", sans-serif !important;
 }
 
 details {
