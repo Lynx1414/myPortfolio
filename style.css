@@ -9,7 +9,7 @@
 } */
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
 }
 
 li {
@@ -163,7 +163,7 @@ header #nav ul.first {
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 1em;
-  padding-top: 0.6em;
+  padding-top: -0.6em;
   padding-right: 1.2em;
   -moz-column-gap: 2.5em;
   column-gap: 2.5em;
@@ -380,7 +380,7 @@ article {
   margin: 0 1em;
 }
 
-#appliMobile>h1,
+#appliMobile>h1,#aboutMe>h1,
 #gridWork>h1,
 #backOffice>h1,
 details {
@@ -398,11 +398,10 @@ details {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   column-gap: 1em;
+  width:80%;
+  margin: auto;
 }
 
-.screenShot {
-  height: 80%;
-}
 
 #gridApi {
   margin: 0 5em;
@@ -466,6 +465,6 @@ details>p {
 
 #profil>p{
   text-align: justify;
-  font-size: 1.2em;
+  font-size: 0.9em;
   font-weight: 500;
 }
