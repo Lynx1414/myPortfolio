@@ -261,6 +261,7 @@ header #nav ul.first li.onglet ul.absolu li.sous_onglet a:hover {
   margin: 0 auto;
   display: grid;
   grid-template-columns: 2fr 1fr;
+  font: inherit;
 }
 
 .main .container .content {
